@@ -19,9 +19,65 @@ h4 {
     padding-bottom: 5px;
 }
 
+h6 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 p {
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+a {
+    color: #03A9F4;
+}
+
+a:hover {
+    color: #0288D1;
+    text-decoration: none;
+}
+
+.navbar-default {
+    background-color: #03A9F4;
+    border-color: #03A9F4;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:  #212121;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #212121;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #03A9F4;
+}
+
+.fa {
+    padding: 5px;
+}
+
+.footer {
+    color: #FFFFFF;
+    background-color: #03A9F4;
+}
